@@ -1,0 +1,20 @@
+body {
+    background-color: bisque;
+}
+
+a {
+    background-color: lightgreen;
+    color:rgb(241, 11, 211);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    background-color: lightslategray;
+}
+.background {
+    background-color: brown;
+    color: bisque;
+}
