@@ -1,7 +1,10 @@
+* {
+    /* border: 1px solid black; */
+}
+
 body {
     background-color: bisque;
 }
-
 a {
     background-color: lightgreen;
     color:rgb(241, 11, 211);
@@ -10,11 +13,36 @@ a {
     margin: 5px;
     text-align: center;
 }
+a:hover {
+    background-color: darkgreen;
+    color: darkred;
+}
 nav {
     display: flex;
     background-color: lightslategray;
 }
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+img {
+    width: 60%;
+    display: block;
+    margin:0 auto;
+}
+p {
+    /* text-align: center; */
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+}
 .background {
     background-color: brown;
     color: bisque;
+}
+footer p{
+    width: 100%;
+    text-align: center;
+    background-color: lightgreen;
+    color:rgb(241, 11, 211);
 }
