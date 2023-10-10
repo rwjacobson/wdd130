@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+select {
+    border: 5px solid darkslategray;
+}
