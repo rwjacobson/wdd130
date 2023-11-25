@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Literata:opsz@7..72&display=swap');
+
+body {
+    font-family: Literata, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+}
+
+header {
+    background-color: #f9a602;
+    padding-bottom: -30px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    color: #470167;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #02fa82;
+}
+#logo-link {
+    padding-top: 30px;
+    justify-self: center;
+    align-self: center;
+}
+#logo-link:hover {
+    background-color: none;
+}
+.logo {
+    width: 80px;
+    padding-bottom: -5px;
+}
+
+#title-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+}
+.title-img {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+.great, .quote {
+    font-family: Courgette;
+    font-size: 3em;
+    color: white;
+    place-self: center;
+}
+.great {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.quote {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr 120px 80px 1fr;
+}
+.home-subheader {
+    background-color: #470167;
+    color: #02fa82;
+    font-family: Courgette;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    height: 100px;
+    font-size: 2.5em;
+    place-self: center;
+    padding: 35px;
+}
+.home-box {
+    height: 250px;
+    background-color: #02fa82;
+    grid-column: 1/4;
+    grid-row: 2/5;
+    align-self: center;
+}
+.home-circle {
+    height: 200px;
+    width: 200px;
+    background-color: #f9a602;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    border-radius: 100%;
+    place-self: center;
+}
+main p {
+    font-family: Literata, Helvetica, sans-serif;
+    font-size: 1em;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: black;
+    align-self: center;
+}
+main h3 {
+    font-family: Literata, Helvetica, sans-serif;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    color: #470167;
+    place-self: center;
+}
+.me-img {
+    grid-column: 3/5;
+}
