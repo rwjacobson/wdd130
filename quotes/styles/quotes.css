@@ -10,7 +10,6 @@ body {
 
 header {
     background-color: #f9a602;
-    padding-bottom: -30px;
 }
 nav {
     display: flex;
@@ -32,12 +31,8 @@ nav a:hover {
     justify-self: center;
     align-self: center;
 }
-#logo-link:hover {
-    background-color: none;
-}
 .logo {
     width: 80px;
-    padding-bottom: -5px;
 }
 
 #title-grid {
