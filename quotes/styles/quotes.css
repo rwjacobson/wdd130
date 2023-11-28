@@ -24,7 +24,7 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    background-color: #02fa82;
+    color: #02fa82;
 }
 #logo-link {
     padding-top: 30px;
