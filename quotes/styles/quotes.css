@@ -24,10 +24,10 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    color: #02fa82;
+    color: #038144;
 }
 #logo-link {
-    padding-top: 30px;
+    padding-top: 10px;
     justify-self: center;
     align-self: center;
 }
@@ -38,6 +38,7 @@ nav a:hover {
 #title-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
+
 }
 .title-img {
     width: 100%;
@@ -84,7 +85,8 @@ nav a:hover {
     grid-column: 1/4;
     grid-row: 2/5;
     align-self: center;
-    margin-left: 45px;
+    margin-left: 3em;
+    z-index: -2;
 }
 .home-circle {
     height: 200px;
@@ -112,10 +114,11 @@ main h3 {
     grid-column: 2/4;
     grid-row: 3/4;
     color: #470167;
-    margin-top: 65px;
+    margin-top: 40px;
     align-self: center;
 }
 .me-img {
+    width: 550px;
     grid-column: 3/5;
     grid-row: 3/4;
     z-index: -1;
@@ -125,7 +128,7 @@ footer {
     background-color: #470167;
     color: #f9a602;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
