@@ -211,7 +211,7 @@ footer a:hover {
     font-size: 1.1em;
     color: white;
     font-family: "Victor Mono";
-    margin: -1em;
+    margin: 0 3%;
 }
 .title-img {
     grid-column: 2/3;
