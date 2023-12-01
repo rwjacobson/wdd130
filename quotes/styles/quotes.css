@@ -143,46 +143,27 @@ footer p a {
     color: #f9a602;
     text-decoration: none;
 }
-/* #theme-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1%;
-}
-#theme-grid p {
-    font-family: Literata, Helvetica, sans-serif;
-}
-#theme-grid h1, h2 {
-    font-family: Courgette;
-}
-.title-theme {
-    font-family: Courgette;
-    font-size: 3em;
-    color: #f9a602;
-    border: #02fa82 solid 5px;
-    justify-content: center;
-    align-content: center;
-    grid-column: 3/5;
-    grid-row: 1/2;
-} */
-
 
 .title-theme {
     font-family: Courgette;
     font-size: 3em;
-    color: #f9a602;
+    color: #470167;
     border: #02fa82 solid 5px;
+    text-align: center;
+    margin: 2% 20%;
 }
 #love-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     justify-items: center;
-    /* align-items: center;  */
     gap: 2%;
 }
 #love-grid p {
     font-family: Literata, Helvetica, sans-serif;
     font-size: .85em;
     margin: 1.5em;
+    align-self: center;
+    text-align: center;
 }
 .title-love {
     font-family: Courgette;
@@ -190,6 +171,7 @@ footer p a {
     color: black;
     grid-column: 3/4;
     grid-row: 1/2;
+    align-self: center;
 }
 .love-img {
     width: 100%;
@@ -271,6 +253,8 @@ footer p a {
     font-family: Literata, Helvetica, sans-serif;
     font-size: .85em;
     margin: 1.5em;
+    align-self: center;
+    text-align: center;
 }
 .happy {
     font-family: Courgette;
@@ -278,6 +262,7 @@ footer p a {
     color: black;
     grid-column: 2/3;
     grid-row: 1/2;
+    align-self: center;
 }
 .happy-albus {
     color: #02fa82;
@@ -325,13 +310,14 @@ footer p a {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     justify-items: center;
-    /* align-items: center;  */
     gap: 2%;
 }
 #funny-grid p {
     font-family: Literata, Helvetica, sans-serif;
     font-size: .85em;
     margin: 1.5em;
+    align-self: center;
+    text-align: center;
 }
 .funny-img {
     width: 100%;
@@ -344,6 +330,7 @@ footer p a {
     color: black;
     grid-column: 3/4;
     grid-row: 1/2;
+    align-self: center;
 }
 .hermione {
     color: #02fa82;
@@ -418,6 +405,8 @@ footer p a {
     font-family: Literata, Helvetica, sans-serif;
     font-size: .85em;
     margin: 1.5em;
+    align-self: center;
+    text-align: center;
 }
 .life {
     font-family: Courgette;
@@ -425,6 +414,7 @@ footer p a {
     color: black;
     grid-column: 2/3;
     grid-row: 1/2;
+    align-self: center;
 }
 .cat {
     color: #470167;
@@ -472,13 +462,14 @@ footer p a {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     justify-items: center;
-    /* align-items: center;  */
     gap: 2%;
 }
 #bravery-grid p {
     font-family: Literata, Helvetica, sans-serif;
     font-size: .85em;
     margin: 1.5em;
+    align-self: center;
+    text-align: center;
 }
 .bravery {
     font-family: Courgette;
@@ -486,6 +477,7 @@ footer p a {
     color: black;
     grid-column: 3/4;
     grid-row: 1/2;
+    align-self: center;
 }
 .bravery-img {
     width: 100%;
