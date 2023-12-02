@@ -78,6 +78,8 @@ nav a:hover {
     grid-column: 1/5;
     grid-row: 1/2;
     font-size: 2em;
+    align-self: center;
+    text-align: center;
 }
 .home-box {
     height: 400px;
@@ -108,7 +110,7 @@ nav a:hover {
     margin-left: 100px;
     margin-right: 30px;
 }
-#home-grid h3 {
+.me {
     font-family: Literata, Helvetica, sans-serif;
     text-align: center;
     grid-column: 2/4;
